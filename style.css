@@ -1,0 +1,49 @@
+*{
+    background-color: #34495E;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation .lin a li{
+    color: white;
+    float: left;
+    list-style: none;
+    font-family: Ubuntu;
+    font-size: 3ch;
+    padding: 13px 13px;
+    display: block;
+    width: 100px;
+    transition-property: color;
+    transition-duration: 1s;
+    justify-content: space-between;
+    margin-left: 110px;
+    
+
+}
+
+.navigation .lin a li:hover{
+    color: green;
+    
+}
+
+
+#discord{
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    margin-left: 10cm;
+}
+
+.navigation .logo img{
+    border-radius: 50px;
+    height: 25px;
+}
+
+
